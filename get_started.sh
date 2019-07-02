@@ -17,7 +17,7 @@ virtualenv -p /usr/bin/python2.7 squad
 source squad/bin/activate
 
 # pip install into environment
-# pip install -r requirements.txt
+pip install -r requirements.txt
 
 # download punkt and perluniprops
 python -m nltk.downloader punkt
